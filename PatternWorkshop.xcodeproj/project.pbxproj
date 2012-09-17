@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDAF138615DC4B4100881EFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAF138515DC4B4100881EFB /* UIKit.framework */; };
+		FDAF138815DC4B4100881EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAF138715DC4B4100881EFB /* Foundation.framework */; };
+		FDAF138A15DC4B4100881EFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAF138915DC4B4100881EFB /* CoreGraphics.framework */; };
+		FDAF139015DC4B4100881EFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDAF138E15DC4B4100881EFB /* InfoPlist.strings */; };
+		FDAF139215DC4B4100881EFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF139115DC4B4100881EFB /* main.m */; };
+		FDAF139615DC4B4100881EFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF139515DC4B4100881EFB /* AppDelegate.m */; };
+		FDAF139915DC4B4100881EFB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAF139715DC4B4100881EFB /* MainStoryboard.storyboard */; };
+		FDAF139C15DC4B4100881EFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF139B15DC4B4100881EFB /* ViewController.m */; };
+		FDAF13A415DC4B4100881EFB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAF13A315DC4B4100881EFB /* SenTestingKit.framework */; };
+		FDAF13A515DC4B4100881EFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAF138515DC4B4100881EFB /* UIKit.framework */; };
+		FDAF13A615DC4B4100881EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAF138715DC4B4100881EFB /* Foundation.framework */; };
+		FDAF13AE15DC4B4100881EFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDAF13AC15DC4B4100881EFB /* InfoPlist.strings */; };
+		FDAF13B115DC4B4100881EFB /* FactoryPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13B015DC4B4100881EFB /* FactoryPatternTests.m */; };
+		FDAF13BC15DC4B9D00881EFB /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13BB15DC4B9D00881EFB /* PizzaStore.m */; };
+		FDAF13C215DC4F0F00881EFB /* SimplePizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13C115DC4F0F00881EFB /* SimplePizzaFactory.m */; };
+		FDAF13C515DC539300881EFB /* CheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13C415DC539300881EFB /* CheesePizza.m */; };
+		FDAF13C815DC556000881EFB /* PepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13C715DC556000881EFB /* PepperoniPizza.m */; };
+		FDAF13D715DD9D0200881EFB /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13D615DD9D0200881EFB /* LightOnCommand.m */; };
+		FDAF13DA15DD9D8E00881EFB /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13D915DD9D8E00881EFB /* Light.m */; };
+		FDAF13DD15DDAB4900881EFB /* SimpleRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13DC15DDAB4900881EFB /* SimpleRemoteControl.m */; };
+		FDAF13E015DEBD5800881EFB /* LightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13DF15DEBD5800881EFB /* LightOffCommand.m */; };
+		FDAF13E415DEBEB000881EFB /* Stereo.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13E315DEBEB000881EFB /* Stereo.m */; };
+		FDAF13E815DEC3E900881EFB /* StereoOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13E715DEC3E900881EFB /* StereoOffCommand.m */; };
+		FDAF13EB15DEC40100881EFB /* StereoOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13EA15DEC40100881EFB /* StereoOnCommand.m */; };
+		FDAF13EE15DEC8DD00881EFB /* StereoVolumeUpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13ED15DEC8DD00881EFB /* StereoVolumeUpCommand.m */; };
+		FDAF13F115DEC8FF00881EFB /* StereoVolumeDownCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13F015DEC8FF00881EFB /* StereoVolumeDownCommand.m */; };
+		FDAF13F415DECC6800881EFB /* RemoteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAF13F315DECC6700881EFB /* RemoteLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDAF13A715DC4B4100881EFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDAF137815DC4B4100881EFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDAF138015DC4B4100881EFB;
+			remoteInfo = FactoryPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDAF138115DC4B4100881EFB /* PatternWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAF138515DC4B4100881EFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDAF138715DC4B4100881EFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDAF138915DC4B4100881EFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDAF138D15DC4B4100881EFB /* PatternWorkshop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PatternWorkshop-Info.plist"; sourceTree = "<group>"; };
+		FDAF138F15DC4B4100881EFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDAF139115DC4B4100881EFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDAF139315DC4B4100881EFB /* PatternWorkshop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatternWorkshop-Prefix.pch"; sourceTree = "<group>"; };
+		FDAF139415DC4B4100881EFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FactoryPattern/AppDelegate.h; sourceTree = "<group>"; };
+		FDAF139515DC4B4100881EFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FactoryPattern/AppDelegate.m; sourceTree = "<group>"; };
+		FDAF139815DC4B4100881EFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FDAF139A15DC4B4100881EFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = FactoryPattern/ViewController.h; sourceTree = "<group>"; };
+		FDAF139B15DC4B4100881EFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = FactoryPattern/ViewController.m; sourceTree = "<group>"; };
+		FDAF13A215DC4B4100881EFB /* PatternWorkshopTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternWorkshopTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAF13A315DC4B4100881EFB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FDAF13AB15DC4B4100881EFB /* PatternWorkshopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PatternWorkshopTests-Info.plist"; sourceTree = "<group>"; };
+		FDAF13AD15DC4B4100881EFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDAF13AF15DC4B4100881EFB /* FactoryPatternTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryPatternTests.h; sourceTree = "<group>"; };
+		FDAF13B015DC4B4100881EFB /* FactoryPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryPatternTests.m; sourceTree = "<group>"; };
+		FDAF13BA15DC4B9D00881EFB /* PizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		FDAF13BB15DC4B9D00881EFB /* PizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+		FDAF13BD15DC4EF700881EFB /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		FDAF13C015DC4F0F00881EFB /* SimplePizzaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePizzaFactory.h; sourceTree = "<group>"; };
+		FDAF13C115DC4F0F00881EFB /* SimplePizzaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePizzaFactory.m; sourceTree = "<group>"; };
+		FDAF13C315DC539300881EFB /* CheesePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheesePizza.h; sourceTree = "<group>"; };
+		FDAF13C415DC539300881EFB /* CheesePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheesePizza.m; sourceTree = "<group>"; };
+		FDAF13C615DC556000881EFB /* PepperoniPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PepperoniPizza.h; sourceTree = "<group>"; };
+		FDAF13C715DC556000881EFB /* PepperoniPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PepperoniPizza.m; sourceTree = "<group>"; };
+		FDAF13D415DD9BD200881EFB /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		FDAF13D515DD9D0200881EFB /* LightOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		FDAF13D615DD9D0200881EFB /* LightOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		FDAF13D815DD9D8E00881EFB /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		FDAF13D915DD9D8E00881EFB /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		FDAF13DB15DDAB4900881EFB /* SimpleRemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRemoteControl.h; sourceTree = "<group>"; };
+		FDAF13DC15DDAB4900881EFB /* SimpleRemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRemoteControl.m; sourceTree = "<group>"; };
+		FDAF13DE15DEBD5800881EFB /* LightOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOffCommand.h; sourceTree = "<group>"; };
+		FDAF13DF15DEBD5800881EFB /* LightOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOffCommand.m; sourceTree = "<group>"; };
+		FDAF13E215DEBEB000881EFB /* Stereo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stereo.h; sourceTree = "<group>"; };
+		FDAF13E315DEBEB000881EFB /* Stereo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stereo.m; sourceTree = "<group>"; };
+		FDAF13E615DEC3E900881EFB /* StereoOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoOffCommand.h; sourceTree = "<group>"; };
+		FDAF13E715DEC3E900881EFB /* StereoOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StereoOffCommand.m; sourceTree = "<group>"; };
+		FDAF13E915DEC40100881EFB /* StereoOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoOnCommand.h; sourceTree = "<group>"; };
+		FDAF13EA15DEC40100881EFB /* StereoOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StereoOnCommand.m; sourceTree = "<group>"; };
+		FDAF13EC15DEC8DD00881EFB /* StereoVolumeUpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoVolumeUpCommand.h; sourceTree = "<group>"; };
+		FDAF13ED15DEC8DD00881EFB /* StereoVolumeUpCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StereoVolumeUpCommand.m; sourceTree = "<group>"; };
+		FDAF13EF15DEC8FF00881EFB /* StereoVolumeDownCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StereoVolumeDownCommand.h; sourceTree = "<group>"; };
+		FDAF13F015DEC8FF00881EFB /* StereoVolumeDownCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StereoVolumeDownCommand.m; sourceTree = "<group>"; };
+		FDAF13F215DECC6700881EFB /* RemoteLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteLoader.h; sourceTree = "<group>"; };
+		FDAF13F315DECC6700881EFB /* RemoteLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDAF137E15DC4B4100881EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAF138615DC4B4100881EFB /* UIKit.framework in Frameworks */,
+				FDAF138815DC4B4100881EFB /* Foundation.framework in Frameworks */,
+				FDAF138A15DC4B4100881EFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAF139E15DC4B4100881EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAF13A415DC4B4100881EFB /* SenTestingKit.framework in Frameworks */,
+				FDAF13A515DC4B4100881EFB /* UIKit.framework in Frameworks */,
+				FDAF13A615DC4B4100881EFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDAF137615DC4B4100881EFB = {
+			isa = PBXGroup;
+			children = (
+				FDAF139415DC4B4100881EFB /* AppDelegate.h */,
+				FDAF139515DC4B4100881EFB /* AppDelegate.m */,
+				FDAF139715DC4B4100881EFB /* MainStoryboard.storyboard */,
+				FDAF139A15DC4B4100881EFB /* ViewController.h */,
+				FDAF139B15DC4B4100881EFB /* ViewController.m */,
+				FDAF138C15DC4B4100881EFB /* Supporting Files */,
+				FDAF138B15DC4B4100881EFB /* Patterns */,
+				FDAF13A915DC4B4100881EFB /* FactoryPatternTests */,
+				FDAF138415DC4B4100881EFB /* Frameworks */,
+				FDAF138215DC4B4100881EFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAF138215DC4B4100881EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF138115DC4B4100881EFB /* PatternWorkshop.app */,
+				FDAF13A215DC4B4100881EFB /* PatternWorkshopTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDAF138415DC4B4100881EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF138515DC4B4100881EFB /* UIKit.framework */,
+				FDAF138715DC4B4100881EFB /* Foundation.framework */,
+				FDAF138915DC4B4100881EFB /* CoreGraphics.framework */,
+				FDAF13A315DC4B4100881EFB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDAF138B15DC4B4100881EFB /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF13D315DD9B0400881EFB /* Command */,
+				FDAF13D215DD9A9D00881EFB /* SimpleFactory/Singleton/Decorator */,
+			);
+			name = Patterns;
+			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		FDAF138C15DC4B4100881EFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF138D15DC4B4100881EFB /* PatternWorkshop-Info.plist */,
+				FDAF138E15DC4B4100881EFB /* InfoPlist.strings */,
+				FDAF139115DC4B4100881EFB /* main.m */,
+				FDAF139315DC4B4100881EFB /* PatternWorkshop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		FDAF13A915DC4B4100881EFB /* FactoryPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF13AF15DC4B4100881EFB /* FactoryPatternTests.h */,
+				FDAF13B015DC4B4100881EFB /* FactoryPatternTests.m */,
+				FDAF13AA15DC4B4100881EFB /* Supporting Files */,
+			);
+			path = FactoryPatternTests;
+			sourceTree = "<group>";
+		};
+		FDAF13AA15DC4B4100881EFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF13AB15DC4B4100881EFB /* PatternWorkshopTests-Info.plist */,
+				FDAF13AC15DC4B4100881EFB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDAF13D215DD9A9D00881EFB /* SimpleFactory/Singleton/Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF13BA15DC4B9D00881EFB /* PizzaStore.h */,
+				FDAF13BB15DC4B9D00881EFB /* PizzaStore.m */,
+				FDAF13BD15DC4EF700881EFB /* Pizza.h */,
+				FDAF13C015DC4F0F00881EFB /* SimplePizzaFactory.h */,
+				FDAF13C115DC4F0F00881EFB /* SimplePizzaFactory.m */,
+				FDAF13C315DC539300881EFB /* CheesePizza.h */,
+				FDAF13C415DC539300881EFB /* CheesePizza.m */,
+				FDAF13C615DC556000881EFB /* PepperoniPizza.h */,
+				FDAF13C715DC556000881EFB /* PepperoniPizza.m */,
+			);
+			name = SimpleFactory/Singleton/Decorator;
+			sourceTree = "<group>";
+		};
+		FDAF13D315DD9B0400881EFB /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF13E515DEBEB700881EFB /* Stereo */,
+				FDAF13E115DEBE8900881EFB /* Light */,
+				FDAF13D415DD9BD200881EFB /* Command.h */,
+				FDAF13DB15DDAB4900881EFB /* SimpleRemoteControl.h */,
+				FDAF13DC15DDAB4900881EFB /* SimpleRemoteControl.m */,
+				FDAF13F215DECC6700881EFB /* RemoteLoader.h */,
+				FDAF13F315DECC6700881EFB /* RemoteLoader.m */,
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
+		FDAF13E115DEBE8900881EFB /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF13D515DD9D0200881EFB /* LightOnCommand.h */,
+				FDAF13D615DD9D0200881EFB /* LightOnCommand.m */,
+				FDAF13DE15DEBD5800881EFB /* LightOffCommand.h */,
+				FDAF13DF15DEBD5800881EFB /* LightOffCommand.m */,
+				FDAF13D815DD9D8E00881EFB /* Light.h */,
+				FDAF13D915DD9D8E00881EFB /* Light.m */,
+			);
+			name = Light;
+			sourceTree = "<group>";
+		};
+		FDAF13E515DEBEB700881EFB /* Stereo */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF13E215DEBEB000881EFB /* Stereo.h */,
+				FDAF13E315DEBEB000881EFB /* Stereo.m */,
+				FDAF13E615DEC3E900881EFB /* StereoOffCommand.h */,
+				FDAF13E715DEC3E900881EFB /* StereoOffCommand.m */,
+				FDAF13E915DEC40100881EFB /* StereoOnCommand.h */,
+				FDAF13EA15DEC40100881EFB /* StereoOnCommand.m */,
+				FDAF13EC15DEC8DD00881EFB /* StereoVolumeUpCommand.h */,
+				FDAF13ED15DEC8DD00881EFB /* StereoVolumeUpCommand.m */,
+				FDAF13EF15DEC8FF00881EFB /* StereoVolumeDownCommand.h */,
+				FDAF13F015DEC8FF00881EFB /* StereoVolumeDownCommand.m */,
+			);
+			name = Stereo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDAF138015DC4B4100881EFB /* PatternWorkshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAF13B415DC4B4100881EFB /* Build configuration list for PBXNativeTarget "PatternWorkshop" */;
+			buildPhases = (
+				FDAF137D15DC4B4100881EFB /* Sources */,
+				FDAF137E15DC4B4100881EFB /* Frameworks */,
+				FDAF137F15DC4B4100881EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatternWorkshop;
+			productName = FactoryPattern;
+			productReference = FDAF138115DC4B4100881EFB /* PatternWorkshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDAF13A115DC4B4100881EFB /* PatternWorkshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAF13B715DC4B4100881EFB /* Build configuration list for PBXNativeTarget "PatternWorkshopTests" */;
+			buildPhases = (
+				FDAF139D15DC4B4100881EFB /* Sources */,
+				FDAF139E15DC4B4100881EFB /* Frameworks */,
+				FDAF139F15DC4B4100881EFB /* Resources */,
+				FDAF13A015DC4B4100881EFB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAF13A815DC4B4100881EFB /* PBXTargetDependency */,
+			);
+			name = PatternWorkshopTests;
+			productName = FactoryPatternTests;
+			productReference = FDAF13A215DC4B4100881EFB /* PatternWorkshopTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDAF137815DC4B4100881EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FDAF137B15DC4B4100881EFB /* Build configuration list for PBXProject "PatternWorkshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDAF137615DC4B4100881EFB;
+			productRefGroup = FDAF138215DC4B4100881EFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDAF138015DC4B4100881EFB /* PatternWorkshop */,
+				FDAF13A115DC4B4100881EFB /* PatternWorkshopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDAF137F15DC4B4100881EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAF139015DC4B4100881EFB /* InfoPlist.strings in Resources */,
+				FDAF139915DC4B4100881EFB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAF139F15DC4B4100881EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAF13AE15DC4B4100881EFB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FDAF13A015DC4B4100881EFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDAF137D15DC4B4100881EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAF139215DC4B4100881EFB /* main.m in Sources */,
+				FDAF139615DC4B4100881EFB /* AppDelegate.m in Sources */,
+				FDAF139C15DC4B4100881EFB /* ViewController.m in Sources */,
+				FDAF13BC15DC4B9D00881EFB /* PizzaStore.m in Sources */,
+				FDAF13C215DC4F0F00881EFB /* SimplePizzaFactory.m in Sources */,
+				FDAF13C515DC539300881EFB /* CheesePizza.m in Sources */,
+				FDAF13C815DC556000881EFB /* PepperoniPizza.m in Sources */,
+				FDAF13D715DD9D0200881EFB /* LightOnCommand.m in Sources */,
+				FDAF13DA15DD9D8E00881EFB /* Light.m in Sources */,
+				FDAF13DD15DDAB4900881EFB /* SimpleRemoteControl.m in Sources */,
+				FDAF13E015DEBD5800881EFB /* LightOffCommand.m in Sources */,
+				FDAF13E415DEBEB000881EFB /* Stereo.m in Sources */,
+				FDAF13E815DEC3E900881EFB /* StereoOffCommand.m in Sources */,
+				FDAF13EB15DEC40100881EFB /* StereoOnCommand.m in Sources */,
+				FDAF13EE15DEC8DD00881EFB /* StereoVolumeUpCommand.m in Sources */,
+				FDAF13F115DEC8FF00881EFB /* StereoVolumeDownCommand.m in Sources */,
+				FDAF13F415DECC6800881EFB /* RemoteLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAF139D15DC4B4100881EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAF13B115DC4B4100881EFB /* FactoryPatternTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDAF13A815DC4B4100881EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDAF138015DC4B4100881EFB /* PatternWorkshop */;
+			targetProxy = FDAF13A715DC4B4100881EFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDAF138E15DC4B4100881EFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAF138F15DC4B4100881EFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDAF139715DC4B4100881EFB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAF139815DC4B4100881EFB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = FactoryPattern;
+			sourceTree = "<group>";
+		};
+		FDAF13AC15DC4B4100881EFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAF13AD15DC4B4100881EFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDAF13B215DC4B4100881EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDAF13B315DC4B4100881EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDAF13B515DC4B4100881EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryPattern/PatternWorkshop-Prefix.pch";
+				INFOPLIST_FILE = "FactoryPattern/PatternWorkshop-Info.plist";
+				PRODUCT_NAME = PatternWorkshop;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDAF13B615DC4B4100881EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryPattern/PatternWorkshop-Prefix.pch";
+				INFOPLIST_FILE = "FactoryPattern/PatternWorkshop-Info.plist";
+				PRODUCT_NAME = PatternWorkshop;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDAF13B815DC4B4100881EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FactoryPattern.app/FactoryPattern";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryPattern/FactoryPattern-Prefix.pch";
+				INFOPLIST_FILE = "FactoryPatternTests/PatternWorkshopTests-Info.plist";
+				PRODUCT_NAME = PatternWorkshopTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FDAF13B915DC4B4100881EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FactoryPattern.app/FactoryPattern";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryPattern/FactoryPattern-Prefix.pch";
+				INFOPLIST_FILE = "FactoryPatternTests/PatternWorkshopTests-Info.plist";
+				PRODUCT_NAME = PatternWorkshopTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDAF137B15DC4B4100881EFB /* Build configuration list for PBXProject "PatternWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAF13B215DC4B4100881EFB /* Debug */,
+				FDAF13B315DC4B4100881EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAF13B415DC4B4100881EFB /* Build configuration list for PBXNativeTarget "PatternWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAF13B515DC4B4100881EFB /* Debug */,
+				FDAF13B615DC4B4100881EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAF13B715DC4B4100881EFB /* Build configuration list for PBXNativeTarget "PatternWorkshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAF13B815DC4B4100881EFB /* Debug */,
+				FDAF13B915DC4B4100881EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDAF137815DC4B4100881EFB /* Project object */;
+}
